@@ -1,0 +1,29 @@
+{
+    "name": "mr777nick.electron-prototype",
+    "version": "0.0.1",
+    "description": "This is a testing electron prototype.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron .",
+        "build": "electron-builder build --mac --win --publish never",
+        "deploy": "electron-builder build --mac --win --publish always"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mr777Nick/electron-prototype.git"
+    },
+    "author": "Bagas Naufal Insani",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mr777Nick/electron-prototype/issues"
+    },
+    "homepage": "https://github.com/Mr777Nick/electron-prototype#readme",
+    "devDependencies": {
+        "electron": "^10.1.5",
+        "electron-builder": "^22.9.1"
+    },
+    "dependencies": {
+        "electron-updater": "^4.3.5"
+    }
+}
